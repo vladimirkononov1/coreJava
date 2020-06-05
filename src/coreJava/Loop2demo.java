@@ -6,6 +6,7 @@ public class Loop2demo {
 		// TODO Auto-generated method stub
 		int k =1;
 		int l =3;
+		String s = "*";
 //		for(int i=1; i<5; i++) {
 //			for(int j=1; j<=i; j++) {
 //				System.out.print(j);
@@ -29,6 +30,13 @@ public class Loop2demo {
 				System.out.print("\t");
 				l = l+3;
 				
+			}
+			System.out.println("");
+		}
+		
+		for(int i=0; i<10; i++) {
+			for(int j=0; j<i; j++) {
+				System.out.print(s);
 			}
 			System.out.println("");
 		}
